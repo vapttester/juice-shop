@@ -1,0 +1,16 @@
+Auth:
+  project_token: 9b5e4575-0920-4a52-9cb6-798020326d41
+  customer_token: 55ca1a9d-61a0-45af-b15d-8b49e2e4208c
+SAST:
+  language: semgrep
+DAST:
+  type: WEB
+  URL: https://juice-shop.herokuapp.com/
+SCA:
+  language: nodejs
+Secret_Scan: true
+container_scan:
+  type: config
+  target: ''
+SBOM: true
+IAC: true
